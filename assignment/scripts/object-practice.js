@@ -24,7 +24,13 @@ console.log('A little about me:', me);
     created above to set its value.
   - Console.log fullName
 */
+me.firstName;
+me.lastName;
 
+let fullName = me.firstName + me.lastName;
+
+console.log(fullName);
+//Would like a space inbetween first and last name
 
 
 /* 3. Nested arrays
