@@ -37,8 +37,10 @@ console.log(fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
-
-
+let firstFood = me.favThreeFoods[0];
+console.log(firstFood);
+let secondFood = me.favThreeFoods[2];
+console.log(secondFood);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
